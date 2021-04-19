@@ -1,4 +1,3 @@
-
 # ios-sdk-v6
 
 The *ios-sdk-v6* lets you communicate between native ios and *Insiteo* unity environment.
@@ -10,10 +9,15 @@ This guide will help you integrate the *ios-sdk-v6* into an existing ios native 
 
 ## Installation
 
-You may have received 'ios_sdk_v6' framework.
-It is currently not available through CocoaPods.
+1. Create / Modify your Podfile and add reference to ios-sdk-v6.
+	```swift
+	target '<targetName>' do
+	  pod 'ios-sdk-v6', :podspec => 'https://raw.github.com/Insiteo/ios-v6/master/ios-sdk-v6.podspec'
+	  use_frameworks!
+	end
+	```
 
-1. Add ios_sdk_v6 framework in your app's target 'Frameworks, Libraries, and Embedded Content' section.
+	After running ```pod install```, close any .xcodeproj and open the generated .xcworkspace instead.
 
 2. Ensure your app has both capabilities *(Signing and Capabilities menu)* **Sign in with Apple** and **Push Notifications**
 
