@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ios-sdk-v6"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Enables managing an Insiteo Unity app."
 
   # This description is used to generate tags and improve search results.
@@ -74,7 +74,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "https://github.com/Insiteo/ios-v6/releases/download/1.0.0/ios-sdk-v6.zip" }
+  spec.source       = { :http => "https://github.com/Insiteo/ios-v6/releases/download/1.0.1/ios-sdk-v6.zip" }
   spec.vendored_frameworks = "ios_sdk_v6.framework"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
